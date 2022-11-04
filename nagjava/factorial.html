@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>factorial of Number</title>
+<script>
+num=prompt("Enter the number:");
+if(num<=0)
+{
+alert("please enter positive number:");
+}
+document.write("factorial of "+num+" is "+fact(num));
+function fact(num)
+{
+f=1;
+for(i=1;i<=num;i++)
+{
+f=f*i;
+}
+return f;
+}
+</script>
+</head>
+</html>
